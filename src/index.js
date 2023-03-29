@@ -1,6 +1,7 @@
 import './styles.css'
-import { homepage } from './functions/homepage';
+import { always } from './functions/always';
 
 let container = document.querySelector('content')
 
-    homepage(content)
+    always(content)
+
