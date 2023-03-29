@@ -73,6 +73,12 @@
     padding: .75rem 1.5rem;
   }
 }
+.active{
+  background-color: #e4da9d;
+  color: black;
+  
+}
+
 
 
 .footer{
@@ -86,3 +92,11 @@
     box-shadow: 2px -3px 2px 3px rgba(0, 0, 0, 0.4);
     
 }
+
+.homeImage{
+    height: 50vh;
+    width: auto;
+    padding: 10vh;
+    
+}
+

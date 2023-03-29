@@ -25,14 +25,19 @@ export function always(container){
     btnBG.classList.add('btnBG')
 
     let homeBTN = document.createElement('button')
+    homeBTN.classList.add('homeBTN')
+
     let menuBTN = document.createElement('button')
+    menuBTN.classList.add('menuBTN')
+
     let contactBTN = document.createElement('button')
+    contactBTN.classList.add('contactBTN')
 
     homeBTN.textContent = 'Home'
     menuBTN.textContent = 'Menu'
     contactBTN.textContent = 'Contact'
 
-    let buttonArray = [homeBTN, menuBTN, contactBTN];
+   const buttonArray = [homeBTN, menuBTN, contactBTN];
     
     buttonArray.forEach(element => {
         element.classList.add('button-40')
@@ -43,6 +48,7 @@ export function always(container){
 
     container.appendChild(btnBG)
 
+    
 
     // Div That will change when the page changes
 
@@ -52,7 +58,7 @@ export function always(container){
     container.appendChild(page)
 
     // footer
-    
+
     let footer = document.createElement('div')
     footer.classList.add('footer')
 
